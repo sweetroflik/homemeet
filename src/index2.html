@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" style="margin: 0;" style="padding: 0;">
+        <style>
+        * {
+         margin: 0;
+         padding: 0;
+        }
+       </style>
+        <img src="/src/img/лого.svg" alt="лого">
+        <button class="high__button">Выйти из аккаунта</button>
+    </header>
+    <section class="offset">
+    </section>
+    <section class="start_part">
+        <section>
+            <div>
+                <button class="button_to_main">На главную</button>
+            </div>
+        </section>
+        <section class="text_box">
+            <p class="text_creat_acaunt">Создание профиля</p>
+            
+            <p class="text_about_me">/ Образование</p>
+        </section>
+        <img src="/src/img/progress bar 2.svg" alt="" width="950px">
+    </section>
+    <main>
+        <section class="flex__main_flex">
+            <div class="radio__second_option">
+                <div class="form_radio">
+                    <input id="radio-1" type="radio" name="status" value="1" checked>
+                    <label class="text__radio" for="radio-1">Студент/выпускник</label>
+                </div>
+                <div class="form_radio">
+                    <input id="radio-2" type="radio" name="status" value="2">
+                    <label class="text__radio" for="radio-2">Сотрудник</label>
+                </div>
+            </div>
+            <div class="flex__for_switches">
+                <p class="text__for_course">Курс</p>
+                <div class="flex__exactly_for_swithes">
+                    <div class="form_radio_group">
+                        <div class="form_radio_group-item">
+                            <input id="radio-11" type="radio" name="radio" checked>
+                            <label for="radio-11">1</label>
+                        </div>
+                        <div class="form_radio_group-item">
+                            <input id="radio-22" type="radio" name="radio">
+                            <label for="radio-22">2</label>
+                        </div>
+                        <div class="form_radio_group-item">
+                            <input id="radio-3" type="radio" name="radio">
+                            <label for="radio-3">3</label>
+                        </div>
+                        <div class="form_radio_group-item">
+                            <input id="radio-4" type="radio" name="radio">
+                            <label for="radio-4">4</label>
+                        </div>
+                        <div class="form_radio_group-item">
+                            <input id="radio-5" type="radio" name="radio">
+                            <label for="radio-5">5</label>
+                        </div>
+                        <div class="form_radio_group-item">
+                            <input id="radio-6" type="radio" name="radio">
+                            <label for="radio-6">6</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox-1", name="check">
+                <label for="checkbox-1" class="text__for_checkbox">Уже окончил вышку</label>
+            </div>
+            <div class="flex__because_huynya_prosto_tak_ne_flexitsa">
+                <p class="text__above_input">Ступень образования</p>
+                <label for="stage of education"></label>
+                <select name="stage-of-education" id="stage-of-education" class="styling__of_select">
+                    <option value="">Ступень образования</option>
+                    <option value="bachelor">Бакалавриат</option>
+                    <option value="specialty">Специалитет</option>
+                    <option value="magistracy">Магистратура</option>
+                    <option value="postgraduate">Аспирантура</option>
+                </select>
+            </div>
+
+            <div class="flex__because_huynya_prosto_tak_ne_flexitsa">
+                <p class="text__above_input">Факультет</p>
+                <label for="stage of education"></label>
+                <select name="stage of education" id="stage of education" class="styling__of_select">
+                    <option value="">Факультет</option>
+                    <option value="mathematics">Факльт математики</option>
+                    <option value="economic-sciences">Факультет экономических наук</option>
+                    <option value="MIEM">Московский институт электроники и математики им. А.Н. Тихонова/option>
+                    <option value="computer-science">Факультет компьютерных наук</option>
+                    <option value="school-of-busines">Высшая школа бизнеса</option>
+                    <option value="law">Факультет права</option>
+                    <option value="Law-and-Administration">Высшая школа юриспруденции и администрирования</option>
+                    <option value="humanities">Факультет гуманитарных наук</option>
+                    <option value="social-science">Факультет социальных наук</option>
+                    <option value="creative">Факультет креативных индустрий</option>
+                    <option value="world-economy">Факультет мировой экономики и мировой политики</option>
+                    <option value="fisicks">Факультет физики</option>
+                    <option value="international-economy-finance">Международный институт экономики и финансов</option>
+                    <option value="city-improvment">Факультет городского и регионального развития</option>
+                    <option value="chemistry">Факультет химии</option>
+                    <option value="biology">Факультет биологии и биотехнологии</option>
+                    <option value="geografy">Факультет географии и геоинформационных технологий</option>
+                    <option value="foreign-languages">Факультет иностранных языков</option>
+                    <option value="statistic">Институт статистических исследований и экономики знаний</option>
+                    <option value="bank">Банковский институт</option>
+                    <option value="innovation">Школа инноватики и предпринимательства</option>
+                </select>
+            </div>
+            <div class="flex__because_huynya_prosto_tak_ne_flexitsa">
+                <p class="text__above_input">Образовательная программа</p>
+                <input type="text" class="input__name2" placeholder="Образовательная программа"> 
+            </div>
+
+            <div class="flex__because_huynya_prosto_tak_ne_flexitsa">
+                <input type="text" class="input__name2" placeholder="Работа" style="margin-top: 8px;"> 
+            </div>
+
+            <section>
+                <p class="text__above_preview2">Так будет выглядеть твоя будущая страница</p>
+                <section class="block__preview_profile2">
+                    <section class="flex__another_one">
+                        <img src="/src/img/фото мини.svg" alt="">
+                        <button class="button__show_contacts">Показать контакты</button>
+                    </section>
+                    <p class="text__name_in_preview_block">Имя и фамилия</p>
+                    <section class="flex__line_of_text_below_name">
+                    
+                        <p class="text__in_line">Пол</p>
+                        <img src="/src/img/Ellipse 14.svg" alt="">
+                        <p class="text__in_line">Возраст</p>
+                        <img src="/src/img/Ellipse 14.svg" alt="">
+                        <div class="rectungl"></div>
+                    </section>
+                    <div class="reg2"></div>
+                    <section class="flex__another_text_line">
+                        <p class="text__small_text_inside_preview">Мне очень нравится устраивать вечеринки, дебоширить и мазать с...</p>
+                        <div class="flex_po_roflu">
+                            <p class="text__razvorot">Развернуть</p>
+                            <img src="/src/img/Rectangle 11.svg" alt="">
+                        </div>
+                    </section>
+                    <section class="flex_for_flex">
+                        <div class="rec3"></div>
+                        <div class="rec4"></div>
+                        <div class="line_in_preview"></div>
+                        <div class="flex_for_cringe_moment">
+                            <div class="rec5"></div>
+                            <div class="rec6"></div>
+                        </div>
+                    </section>
+                </section>
+                <section class="block_we_are_so_sad2">
+                    <section>
+                        <p class="text__we_know_nothing">Раскажи где ты учишься</p>
+                    <p class="text_people">Часто студенты ищут соседей по схожим интересам</p>
+                    </section>
+                    <p class="smiley2">🙂</p>
+                </section>
+            </section>
+        </section>
+
+
+    </main>
+    <section>
+        <button class="button__last">Продолжить</button>
+    </section>
+    <footer class="footer">
+        <div class="block__support_email">
+            <p class="text__support_email">Support@homeet.com</p>
+            <p class="text__under_email">Техническая поддержка</p>
+        </div>
+        <div class="flex__for_line_of_support">
+            <p class="text__in_line_of_support">О сервисе</p>
+            <p class="text__in_line_of_support">Контакты</p>
+            <p class="text__in_line_of_support">Политика конфиденциальности</p>
+            <div class="flex_for_icons">
+                <div class="back_of_icons1">
+                    <img src="/src/img/Frame 9600.svg" alt="">
+                </div>
+                <div class="back_of_icons2">
+                    <img src="/src/img/Frame 9601.svg" alt="">
+                </div>
+            </div>
+            <div class="line__in_footer"></div>
+            <div class="flex__for_finale_text">
+                <div>
+                    <p  class="text__final">Предложение не является публичной офертой.</p>
+                    <p  class="text__final">Сервис не несет ответственности за действия пользователей, достоверность информации и т.д.</p>
+                </div>
+                <p><span class="made_in">Сделано в</span><span class="bvsr"> бвср</span></p>
+            </div>
+        </div>
+    </footer>
+    <div class="block__bottom_bar"></div>
+</body>
+</html>
